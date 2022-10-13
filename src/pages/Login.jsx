@@ -23,7 +23,7 @@ const Login = () => {
     }
   };
   return (
-    <div className="formContainer bg-registerBg h-1/2 lg:h-screen flex items-center justify-center">
+    <div className="formContainer bg-registerBg h-screen flex items-center justify-center">
       <div className="formWrapper bg-white py-5 px-16 rounded-md flex flex-col gap-3 items-center">
         <span className="logo text-logoColor font-bold text-2xl">
           UDBSS Chat
