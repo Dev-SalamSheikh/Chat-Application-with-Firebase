@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  flex: 1;
+}
+
+.chat {
+  flex: 2;
+}
+
+.messages {
+  height: calc(100% - 120px);
+}
+
+.message.owner {
+  flex-direction: row-reverse;
+}
+
+.message.owner.messageContent {
+  align-items: flex-end;
+}
+
+.message.owner p {
+  background-color: #8da4f1;
+  color: white;
+  border-radius: 10px 0px 10px 10px;
+}
