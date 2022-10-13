@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        registerBg: "#a7bcff",
+        registerBg: "#151C28",
         buttonBg: "#7b96ec",
         navbarBg: "#2f2d52",
         sidebarBg: "#3e3c61",
